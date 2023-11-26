@@ -1,2 +1,2 @@
 # Myplayground
-# <h1 style: color=Red> This is a revolution </h1>
+# <h1> This is a revolution </h1>
