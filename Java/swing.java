@@ -16,6 +16,7 @@ class Swing{
     tf2.setBounds(200, 55, 80,20);
     
     tf2=new JTextField();
+    
 
         win=new JFrame("Window");
         win.add(l1);
