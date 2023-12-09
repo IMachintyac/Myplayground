@@ -1,36 +1,38 @@
-# nameList=[]
-# scoreList=[]
-# x=[]
-# for _ in range(int(input("Enter N: "))):
-#     name=input("Enter Name: ")
-#     score=int(input("Enter Score"))
-#     nameList.append(name)
-#     scoreList.append(score)
-#     y=scoreList.sort()
-#     for i in scoreList:
-#         if i>min(scoreList):
-#             x.append(score.index(i))
-#             continue
-# x.sort()
-# for j in x:
-#     print(x.sort())
+if __name__ == '__main__':
+    
+    lname=[]
+    lscore=[]
+    ln2=[]
+    lsc2=[]
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        lname.append(name)
+        lscore.append(score)
+    for k in lscore:
+        lsc2.append(k)
+   
+    
+    lsc2.sort()
+    
+    
+    min1=min(lsc2)
+    for i in range(0,len(lsc2)):
+        if lsc2[i]>min1:
+            min2=lsc2[i]
+            
+            break
+   
+    for j in range(0,len(lscore)):
+        
+        
+        if lscore[j] == min2:
+            
+            
+            ln2.append(lname[j])
 
-
-# lis=[[]]
-l1=[1,"Pk"]
-l2=[16,"Aak"]
-l3=[14,"Aj"]
-# # lis[1][1]=[["Pk",20],["Aak",10]]
-# print(list)
-lis=[l1,l2,l3]
-lis.sort()
-print(lis)
-for i in range(0,3):
-    print(lis[i][1])
-
-
-
-
-
-
-
+    ln2.sort()
+    for x in ln2:
+        print(x)
+   
+  
