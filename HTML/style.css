@@ -1,0 +1,45 @@
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.photo{
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    width: 100px;
+    height: 100px;
+    opacity: 100%;
+
+}
+.box{
+    position:fixed;
+    width: 400px;
+    height:700px ;
+    
+    background-color: rgba(0, 255, 255, 0.485);
+    border:solid  red;
+    
+
+}
+.box2{
+    
+    position: fixed;
+    top: 140px;
+    left:470px ;
+    border: none;
+    padding: 32px,50px;
+    font-size: 16px;
+    
+
+    
+}
+
+

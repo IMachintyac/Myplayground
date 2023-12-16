@@ -1,0 +1,22 @@
+body{
+    position: fixed;
+    left: 45%;
+    
+    top: 50%;
+    
+    color: rgb(0, 0, 0);
+    font-size:xx-large;
+    font: bold;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+}
+
+.btn{
+    background-image: url('dow.jpg');
+    color: aliceblue;
+    background-size: cover;
+    position:fixed;
+    display: inline-block;
+    padding:30px;
+    font-size: 16px;
+}
